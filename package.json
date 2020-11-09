@@ -1,0 +1,26 @@
+{
+  "name": "strategy",
+  "version": "1.0.0",
+  "description": "Demonstração multi datasources com strategy design pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w src/tests/*.test.js"
+  },
+  "keywords": [
+    "strategy",
+    "design",
+    "pattern",
+    "database"
+  ],
+  "author": "zcaiobs",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.10.13",
+    "pg": "^8.4.2",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  }
+}
