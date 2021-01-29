@@ -36,3 +36,8 @@ docker run,
     --link mongodb:mongodb,
     -d,
     mongoclient/mongoclient
+    
+    
+    ### -----------MySql-------------
+    docker run --name mysql -e MYSQL_ROOT_PASSWORD=admin -p 3306:3306 -d mysql:5.6.51
+docker run, --name mysqladm, -p 9001:8080, --link mysql:mysqladm, -d, adminer
